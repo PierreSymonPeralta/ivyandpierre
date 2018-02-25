@@ -1,7 +1,6 @@
 import $ from 'jquery';
 import 'fullpage.js';
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import SectionOne from './pages/section_one/section_one';

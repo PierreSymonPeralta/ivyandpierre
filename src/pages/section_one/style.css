@@ -1,4 +1,7 @@
 #section1{
-  background-image: url('../../assets/img1.jpg');
-  color: #333;
+  background-image: url('../../assets/img8.JPG');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }

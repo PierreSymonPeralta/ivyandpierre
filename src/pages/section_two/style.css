@@ -1,0 +1,16 @@
+.timer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.timer div{
+  display: flex;
+  flex-direction: column;
+  margin: 5rem;
+}
+
+.timer h1{
+  font-size: 300%;
+}
+
