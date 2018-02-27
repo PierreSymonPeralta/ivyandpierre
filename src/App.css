@@ -1,3 +1,9 @@
 .App {
   text-align: center;
 }
+
+#fullpage .section:not(:first-child){
+  background: rgba(255, 255, 255, .5);
+}
+
+

@@ -2,15 +2,26 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
 .timer div{
   display: flex;
   flex-direction: column;
-  margin: 5rem;
+  padding: 4em;
 }
 
-.timer h1{
-  font-size: 300%;
+
+@media screen and (max-width: 768px) {
+  .timer div{
+    width: 25%;
+  }
 }
+
+@media screen and (max-width: 376px) {
+  .timer div{
+    font-size: 70%;
+    width: 15%;
+  }
+}
+
 

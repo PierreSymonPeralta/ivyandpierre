@@ -1,0 +1,17 @@
+.image-container{
+  width: 250px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.image-container img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.image-container span{
+  font-size: 16pt;
+}

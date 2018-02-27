@@ -6,12 +6,13 @@ import './App.css';
 import SectionOne from './pages/section_one/section_one';
 import SectionTwo from './pages/section_two/section_two';
 import SectionThree from './pages/section_three/section_three';
+import SectionFour from './pages/section_four/section_four';
 
 class App extends Component {
 
   componentDidMount() {
 		$('#fullpage').fullpage({
-            sectionsColor: ['#ffbdbd','#c9c9ff', '#e1f7d5', '#f1cbff', '#ccddff'],
+            // sectionsColor: ['#ffffff','	#ffffff', '#ffffff', '#ffffff', '#ccddff'],
             anchors: ['home', 'details', 'footer'],
             menu: '#menu',
             css3: true,
@@ -26,6 +27,7 @@ class App extends Component {
  					<SectionOne></SectionOne>
  					<SectionTwo></SectionTwo>
  					<SectionThree></SectionThree>
+           <SectionFour></SectionFour>
  				</div>
       </div>
     );
