@@ -16,7 +16,7 @@ class App extends Component {
             anchors: ['home', 'details', 'footer'],
             menu: '#menu',
             css3: true,
-            scrollingSpeed: 1000
+            scrollingSpeed: 750
         });
   }
   

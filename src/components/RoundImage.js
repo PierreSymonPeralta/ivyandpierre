@@ -6,9 +6,11 @@ class RoundImage extends React.Component {
     
 		return (
 			<div className="image-container">
-        <h1>{this.props.title}</h1>
-        <img src={this.props.source} alt="desc"/>
-        <span>{this.props.description}</span>
+				<a href="http://www.farmhousehotelandcafe.com/">
+					<h1>{this.props.title}</h1>
+					<img src={this.props.source} alt="desc"/>
+					<span>{this.props.description}</span>
+				</a>
       </div>
 		)
 	}
