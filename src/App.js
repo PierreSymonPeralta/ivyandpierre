@@ -3,18 +3,24 @@ import 'fullpage.js';
 import React, { Component } from 'react';
 import './App.css';
 
-import SectionOne from './pages/section_one/section_one';
-import SectionTwo from './pages/section_two/section_two';
-import SectionThree from './pages/section_three/section_three';
-import SectionFour from './pages/section_four/section_four';
+import {
+  Banner,
+  SaveTheDate,
+  Details,
+  BrideAndGroom,
+  People,
+  Rsvp,
+  Gallery,
+  SectionFour
+} from './pages';
 
 class App extends Component {
 
   componentDidMount() {
 		$('#fullpage').fullpage({
-            // sectionsColor: ['#ffffff','	#ffffff', '#ffffff', '#ffffff', '#ccddff'],
-            anchors: ['home', 'details', 'footer'],
-            menu: '#menu',
+            anchors: ['home', 'us', 'savethedate', 'details', 'people', 'rsvp'],
+            sectionsColor: [null, null, null, null, '#acbb7d'],
+            menu: '#home',
             css3: true,
             scrollingSpeed: 750
         });
@@ -24,10 +30,13 @@ class App extends Component {
     return (
       <div className="App">
         <div id='fullpage'>
- 					<SectionOne></SectionOne>
- 					<SectionTwo></SectionTwo>
- 					<SectionThree></SectionThree>
-           <SectionFour></SectionFour>
+ 					<Banner/>
+          <BrideAndGroom/>
+ 					<SaveTheDate/>
+ 					<Details/>
+          <People/>
+          <Rsvp/>
+          <Gallery/>
  				</div>
       </div>
     );

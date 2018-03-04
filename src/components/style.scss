@@ -1,79 +1,113 @@
+@import 'assets/scss/common.scss';
+
 /* Common */
-a:link, a:visited {
+a:link, a:visited{
   text-decoration: none;
-  color: #334500; }
+  color: $font-color;
+}
 
 /* Round Image */
-.image-container {
+
+.image-container{
   width: 250px;
   padding: 10px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  cursor: pointer; }
-  .image-container .title {
-    margin-bottom: 1em; }
-  .image-container img {
+  cursor: pointer;
+  .title{
+    margin-bottom: 1em;
+  }
+  img{
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    margin-bottom: 10px; }
-  .image-container span {
-    font-size: 16pt; }
+    margin-bottom: 10px;
+  }
 
-.card-container {
+  span{
+    font-size: 16pt;
+  }
+}
+
+// Card
+.card-container{
   width: 450px;
-  background-color: #f9f8f8;
+  background-color: $dark-white;
   padding: 5px;
+
   display: flex;
   justify-content: center;
-  flex-direction: column; }
-  .card-container img {
+  flex-direction: column;
+  img{
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    margin: 0 auto; }
-  .card-container p {
-    font-size: 75%; }
+    margin: 0 auto;
+  }
+  p{
+    font-size: 75%;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
-  .image-container {
+  .image-container{
     width: 150px;
     padding: 10px;
     display: flex;
     justify-content: center;
-    flex-direction: column; }
-    .image-container .title {
-      font-size: 120%; }
-    .image-container img {
+    flex-direction: column;
+    .title{
+      font-size: 120%;
+    }
+    img{
       width: 150px;
       height: 150px;
       border-radius: 50%;
-      margin-bottom: 10px; }
-    .image-container span {
-      font-size: 16pt; } }
+      margin-bottom: 10px;
+    }
+    span{
+      font-size: 16pt;
+    }
+  }
+}
 
 @media screen and (max-width: 450px) {
-  .timer div {
+  .timer div{
     font-size: 60%;
-    width: 15%; } }
+    width: 15%;
+  }
+}
 
 /* Timer */
-.timer {
+
+.timer{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center; }
-  .timer div {
+  justify-content: center;
+  div{
     display: flex;
     flex-direction: column;
-    padding: 4em; }
+    padding: 4em;
+  }
+}
 
 @media screen and (max-width: 768px) {
-  .timer div {
-    width: 25%; } }
+  .timer div{
+    width: 25%;
+  }
+}
 
 @media screen and (max-width: 450px) {
-  .timer div {
+  .timer div{
     font-size: 60%;
-    width: 15%; } }
+    width: 15%;
+  }
+}
+
+
+
+
+

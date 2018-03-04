@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+  .timer div {
+    width: 25%; } }
+
+@media screen and (max-width: 450px) {
+  .timer div {
+    font-size: 60%;
+    width: 15%; } }
