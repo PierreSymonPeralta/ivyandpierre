@@ -1,0 +1,13 @@
+.intro{
+  min-height: 75%;
+  // parent flex props
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  > div{
+    // parent flex props
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  } 
+}

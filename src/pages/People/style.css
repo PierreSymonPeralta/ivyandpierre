@@ -1,0 +1,9 @@
+.intro {
+  min-height: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .intro > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }

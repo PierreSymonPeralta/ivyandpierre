@@ -32,22 +32,38 @@ a:link, a:visited{
 
 // Card
 .card-container{
-  width: 450px;
+  width: 400px;
+  height: 130px;
   background-color: $dark-white;
-  padding: 5px;
+  padding: 10px;
 
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  img{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    margin: 0 auto;
+  justify-content: space-between;
+  flex-direction: row;
+
+  .image{
+    line-height: 125px;
+    img{
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      vertical-align: middle;
+    }
   }
-  p{
-    font-size: 75%;
-  }
+  .details{
+    padding: 5px;
+    text-align: right;
+    p{
+      margin: 5px;
+      font-size: 50%;
+    }
+    p:first-child{
+      font-size: 70%;
+    }
+    p:nth-child(2){
+      font-size: 65%;
+    }
+  } 
 }
 
 

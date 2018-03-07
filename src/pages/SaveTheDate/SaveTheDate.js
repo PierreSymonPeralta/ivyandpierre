@@ -7,7 +7,7 @@ class SaveTheDate extends React.Component {
 	render() {
 		return (
 			<div className="section">
-				<div class="title">Save The Date</div>
+				<div className="title">Save The Date</div>
 				<div className="content">
 					<p> Sept 08, 2018 </p>
 					<Timer />
