@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import { PenCard } from 'components/';
+import { PenCard } from '../../components';
 
  const BrideAndGroom = (props) => {
   return (
