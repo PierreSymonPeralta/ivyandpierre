@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import './style.css';
+import { PenCard } from 'components/';
 
- const BrideAndGroom = () => {
+ const BrideAndGroom = (props) => {
   return (
     <div className="section">
-      <div className="title">Us</div>
+      <div className="pen-container">
+        {props.data.map((r, i)=> <PenCard key={i} desc={r.desc} name={r.name} src={r.src}/>)}
+      </div>
     </div>
   )
  }

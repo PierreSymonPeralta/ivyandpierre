@@ -5,7 +5,7 @@ import BrideAndGroom from './BrideAndGroom/BrideAndGroom';
 import People from './People/People';
 import Rsvp from './Rsvp/Rsvp';
 import Gallery from './Gallery/Gallery';
-import SectionFour from './section_four/section_four';
+import Map from './Map/Map';
 
 export {
   Banner,
@@ -15,6 +15,6 @@ export {
   People,
   Rsvp,
   Gallery,
-  SectionFour
+  Map
 }
 

@@ -67,6 +67,31 @@ a:link, a:visited{
 }
 
 
+//Pen Card
+.pencard-container{
+  margin: 0 auto;
+  width: 25rem;
+  height: 30rem;
+  background-color: #acbb7d;
+
+  display: flex;
+  padding: 10px;
+
+  img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  
+  }
+  h1{
+    font-size: 120%;
+  }
+  p{
+    font-size: 70%;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .image-container{
     width: 150px;

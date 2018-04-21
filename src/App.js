@@ -3,6 +3,8 @@ import 'fullpage.js';
 import React, { Component } from 'react';
 import './App.css';
 
+import dataService from './service/data.service';
+
 import {
   Banner,
   SaveTheDate,
@@ -11,7 +13,7 @@ import {
   People,
   Rsvp,
   Gallery,
-  SectionFour
+  Map
 } from './pages';
 
 class App extends Component {
@@ -31,12 +33,13 @@ class App extends Component {
       <div className="App">
         <div id='fullpage'>
  					<Banner/>
-          <BrideAndGroom/>
+          <BrideAndGroom data={dataService.getUs()}/>
  					<SaveTheDate/>
  					<Details/>
-          <People/>
+          {/* <People/> */}
           <Rsvp/>
           <Gallery/>
+          <Map/>
  				</div>
       </div>
     );

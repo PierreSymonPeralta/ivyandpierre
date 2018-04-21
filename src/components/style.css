@@ -47,6 +47,22 @@ a:link, a:visited {
     .card-container .details p:nth-child(2) {
       font-size: 65%; }
 
+.pencard-container {
+  margin: 0 auto;
+  width: 25rem;
+  height: 30rem;
+  background-color: #acbb7d;
+  display: flex;
+  padding: 10px; }
+  .pencard-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; }
+  .pencard-container h1 {
+    font-size: 120%; }
+  .pencard-container p {
+    font-size: 70%; }
+
 @media screen and (max-width: 768px) {
   .image-container {
     width: 150px;
