@@ -49,10 +49,11 @@ a:link, a:visited {
 
 .pencard-container {
   margin: 0 auto;
-  width: 25rem;
-  height: 30rem;
+  width: 400px;
+  height: 500px;
   background-color: #acbb7d;
   display: flex;
+  flex-direction: column;
   padding: 10px; }
   .pencard-container img {
     width: 200px;
@@ -67,7 +68,6 @@ a:link, a:visited {
   .image-container {
     width: 150px;
     padding: 10px;
-    display: flex;
     justify-content: center;
     flex-direction: column; }
     .image-container .title {
@@ -78,7 +78,26 @@ a:link, a:visited {
       border-radius: 50%;
       margin-bottom: 10px; }
     .image-container span {
-      font-size: 16pt; } }
+      font-size: 16pt; }
+  .pencard-container {
+    background-color: #acbb7d;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 270px;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .pencard-container img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%; }
+    .pencard-container h1 {
+      font-size: 70%;
+      margin-left: 25px;
+      margin-top: 30px; }
+    .pencard-container p {
+      font-size: 55%; } }
 
 @media screen and (max-width: 450px) {
   .timer div {
@@ -104,3 +123,23 @@ a:link, a:visited {
   .timer div {
     font-size: 60%;
     width: 15%; } }
+
+@media screen and (max-width: 450px) {
+  .pencard-container {
+    background-color: #acbb7d;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 250px;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .pencard-container img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%; }
+    .pencard-container h1 {
+      font-size: 70%;
+      margin-left: 25px;
+      margin-top: 30px; }
+    .pencard-container p {
+      font-size: 55%; } }

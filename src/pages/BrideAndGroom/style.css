@@ -1,3 +1,13 @@
 .pen-container {
   display: flex;
   min-height: 75%; }
+
+@media screen and (max-width: 768px) {
+  .pen-container {
+    flex-direction: column;
+    min-height: 80%; } }
+
+@media screen and (max-width: 450px) {
+  .pen-container {
+    flex-direction: column;
+    min-height: 75%; } }
